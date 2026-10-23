@@ -25,7 +25,7 @@ permissions:
 
 jobs:
   compilers:
-    uses: Ashtray-Archer/utilities-android-phone-user/.github/workflows/ick-compilers.yml@4f99f831cb70c09bc1f84b48bdc7ae532f4aef44
+    uses: Ashtray-Archer/utilities-android-phone-user/.github/workflows/ick-compilers.yml@e892720ee0d9814b99d4b1c4cdd650c43de71a0a
 
   build:
     needs: compilers
@@ -52,7 +52,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           repository: Ashtray-Archer/utilities-android-phone-user
-          ref: 4f99f831cb70c09bc1f84b48bdc7ae532f4aef44
+          ref: e892720ee0d9814b99d4b1c4cdd650c43de71a0a
           path: .utilities
       - name: Check out canonical shared font
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
