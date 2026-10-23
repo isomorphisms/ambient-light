@@ -70,9 +70,8 @@ jobs:
           repository: isomorphisms/ai-ci
           ref: 4ea071a96239f3a29ca6d98454feb59947d87cfe
           path: .ai-ci-ick
-      - name: Qualify host ICK
-        id: ick
-        uses: isomorphisms/ai-ci/ick-host@4ea071a96239f3a29ca6d98454feb59947d87cfe
+      # Maintained source is produced by the three qualified Android ICK stages.
+      # No host compiler is consumed by this native-only package job.
       - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
         with:
           pattern: ick-*
