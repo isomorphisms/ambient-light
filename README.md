@@ -25,3 +25,11 @@ APK inspection, same-candidate replacement, launch, posted frame, emulator
 memory and APK sizes are separate configured checks until their run passes.
 Physical MIRO A1/C67 readings, responsiveness, light response and typography
 remain unverified. No calibration or photometric accuracy is claimed.
+
+The app now adopts the fixed charcoal canvas and launch theme through its
+pinned shared instrument source and android-NDK presentation contract.
+The build host materializes those declared resource inputs. The retained font,
+light-sensor semantics, package/version and development signer are preserved.
+This adoption is stacked on the existing implementation; current-source signed
+build, both system appearance modes on API29/API34 and physical C67 checks
+remain pending. No merge, release or installation is performed.
