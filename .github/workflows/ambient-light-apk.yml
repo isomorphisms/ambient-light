@@ -26,7 +26,7 @@ permissions:
 
 jobs:
   compilers:
-    uses: Ashtray-Archer/utilities-android-phone-user/.github/workflows/ick-compilers.yml@7dfacda62e5b1a7b8c28925bff437602dab7e14a
+    uses: Ashtray-Archer/utilities-android-phone-user/.github/workflows/ick-compilers.yml@4c7fcfcdd22468e8abaa368eb863c012784909df
 
   build:
     needs: compilers
@@ -56,13 +56,13 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           repository: Ashtray-Archer/utilities-android-phone-user
-          ref: 7dfacda62e5b1a7b8c28925bff437602dab7e14a
+          ref: 4c7fcfcdd22468e8abaa368eb863c012784909df
           path: .utilities
       - name: Check out the shared charcoal presentation contract
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           repository: isomorphisms/android-NDK
-          ref: 3e682fb1175beef5625dbd2418730220e49fc9bd
+          ref: e8b67dfc67776c2b8da919785d15f38d68c91db0
           path: .utilities/.charcoal
           persist-credentials: false
       - name: Materialize pinned charcoal launch resources
