@@ -4,3 +4,7 @@
 /build/
 /app/build/
 /.test-signing/
+/app/src/main/res/values/charcoal.xml
+/app/src/main/res/values-v21/charcoal.xml
+/app/src/main/res/values-v31/charcoal.xml
+/app/src/main/res/color/charcoal_text_states.xml
